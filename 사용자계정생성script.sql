@@ -19,7 +19,7 @@ ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
 CREATE USER kh_ads IDENTIFIED BY kh1234;
 -- 계정 생성 구문 (kh_ads : USERNAME / kh1234 : Password)
 -- ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다.
--- ORA-01920: 사용자명 'KH_ADS'(이)가 다른 사용자나 롤 이름과 상충됩니다
+-- ORA-01920: 사용자명 'KH_ADS'(이)가 다른 사용자나 롤 이름과 상충됩니다.
 
 GRANT RESOURCE, CONNECT TO kh_ads;
 -- 사용자 계정에 권한 부여 설정
